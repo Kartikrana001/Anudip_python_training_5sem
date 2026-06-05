@@ -3,7 +3,7 @@ seats = [1, 0, 1, 1, 0, 0, 1, 1, 1, 0]
 booked = 0
 available = 0
 available_seats = []
-first_available = -1
+first_available = 0
 
 for i in range(len(seats)):
     if seats[i] == 1:
@@ -12,7 +12,7 @@ for i in range(len(seats)):
         available += 1
         available_seats.append(i + 1)
 
-        if first_available == -1:
+        if first_available == 0:
             first_available = i + 1
 
 occupancy = (booked * 100) / len(seats)
