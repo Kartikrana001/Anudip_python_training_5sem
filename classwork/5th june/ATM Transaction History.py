@@ -9,7 +9,9 @@ for t in transactions:
 
     if t > 0:
         deposits.append(t)
-    else:
+    elif t == 0:
+        pass
+    elif t < 0:
         withdrawals.append(t)
 
 largest_deposit = deposits[0]
