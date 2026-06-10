@@ -1,0 +1,13 @@
+  ===== Expense Report =====
+
+Total Expenses : 7150
+
+Highest Expense Category : Education (1500)
+
+Lowest Expense Category : Miscellaneous (250)
+
+Categories Spending More Than 800
+Shopping - 1200
+Electricity - 850
+Education - 1500
+Fuel - 900
